@@ -1,0 +1,98 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+
+*/
+body  {background-image:url(../images/bg.jpeg) ; background-repeat:repeat ; font-family:Arial, Helvetica, sans-serif ;}
+
+
+h1, h2, h3 {font-family:'Open Sans Condensed',Arial, Helvetica, sans-serif ; }
+
+#wrapper {width:900px; margin:10px auto; background-color:#fff; padding:0 40px }
+
+#top {width:300px;height:300px; }
+
+#logo {float:left ; margin:50px 0;}
+
+#asside {width:300px;height:300px;float:right; margin-right:130px;border-left:1px dashed #aaa;padding-left:15px; }
+#asside .widget {width:300px;}
+
+#asside ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style:none;}
+
+#asside ul li {
+    padding:5px 0;
+}
+#asside ul li input[type="text"], ul li input[type="password"] {
+    width:200px;
+}                          
+                  
+
+
+#topnav {clear:both;}
+#topnav ul {padding: 15px 0 ; margin: 0 ; border-top: 1px #000 dotted; border-bottom: 1px #000 dotted;  }
+
+
+#topnav ul li {display:inline ; list-style-type:none ; margin: 0 15px 0 15px;}
+
+
+#topnav a:link    { font-weight:bold; text-decoration:none ; text-transform:uppercase ; color:#000;}
+#topnav a:visited { font-weight:bold; text-decoration:none ; text-transform:uppercase ; color:#000;} 
+#topnav a:active  { font-weight:bold; text-decoration:none ; text-transform:uppercase ; color:#000;}  
+#topnav a:hover   { font-weight:bold; text-decoration:none ; text-transform:uppercase ; color:#CA091C;}  
+#topnav a:focus   { font-weight:bold; text-decoration:none ; text-transform:uppercase ; color:#CA091C;} 
+
+#content{float:left; width:900px;}
+#content p {font-size:12px; line-height:180% ;}
+
+#footer p {text-align:center; font-size:14px; font-weight:bold; }
+
+#footer{clear:both ; padding:10px 0; border-top:1px #000 ;}
+
+#leftside h1,h2,h3 {width:380px; float:left;text-align:left;padding: 2px 0 0 0 ;}
+#leftside {width:380px; float:left;text-align:left; }
+#leftside p {width:380px; float:left;text-align:left;padding: 2px 0 0 0; }
+#vid {width:460px; float:right; padding: 40px 0 ;}
+
+#leftside li {list-style-type:none ; }
+
+#name {
+	margin-left: 51px;
+}
+#secondname {
+	margin-left: 50px;
+}
+#mail {
+	margin-left: 85px;
+}
+#password {
+	margin-left: 59px;
+}
+#mail {
+	margin-left: 90px;
+}
+#secondname {
+	margin-left: 55px;
+}
+#name {
+	margin-left: 55px;
+}
+#email1 {
+	margin-left: 35px;
+}
+#message {
+	margin-left: 10px;
+}
+#send {
+	margin-left: 80px;
+}
+#email {
+	margin-left: 35px;
+}
